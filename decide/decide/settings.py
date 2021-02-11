@@ -73,15 +73,15 @@ MODULES = [
 BASEURL = 'https://egc-prueba-alberto.herokuapp.com/'
 
 APIS = {
-    'authentication': 'https://egc-prueba-alberto.herokuapp.com/',
-    'base': 'https://egc-prueba-alberto.herokuapp.com/',
-    'booth': 'https://egc-prueba-alberto.herokuapp.com/',
-    'census': 'https://egc-prueba-alberto.herokuapp.com/',
-    'mixnet': 'https://egc-prueba-alberto.herokuapp.com/',
-    'postproc': 'https://egc-prueba-alberto.herokuapp.com/',
-    'store': 'https://egc-prueba-alberto.herokuapp.com/',
-    'visualizer': 'https://egc-prueba-alberto.herokuapp.com/',
-    'voting': 'https://egc-prueba-alberto.herokuapp.com/',
+    'authentication': BASEURL,
+    'base': BASEURL,
+    'booth': BASEURL,
+    'census': BASEURL,
+    'mixnet': BASEURL,
+    'postproc': BASEURL,
+    'store': BASEURL,
+    'visualizer': BASEURL,
+    'voting': BASEURL,
 }
 
 MIDDLEWARE = [
