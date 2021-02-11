@@ -18,3 +18,8 @@ install:
 script:
 - cd decide
 - python ./manage.py test --keepdb
+deploy:
+  provider: heroku
+  app: heroku-egc-prueba
+  strategy: git
+  api_key: 9f667a73-6e2f-4812-88e8-13b3c03319bd
